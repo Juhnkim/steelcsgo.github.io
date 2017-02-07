@@ -28,6 +28,7 @@ var pics=["https://s-media-cache-ak0.pinimg.com/originals/47/ef/eb/47efeb2d7cfe6
          "http://wallpaper-gallery.net/images/hd-images/hd-images-7.jpg",
          "https://s-media-cache-ak0.pinimg.com/originals/1d/c6/af/1dc6afeac34de537cdfb323be99509d5.jpg",
          "https://s-media-cache-ak0.pinimg.com/736x/67/63/06/676306aad47f70e74621a822722864b2.jpg"];
+
 var picIndex=0
 function goLeft(){
   if(picIndex>0){
