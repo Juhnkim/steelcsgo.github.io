@@ -1,3 +1,47 @@
+.X{
+	background-color:blue;
+	height:400px;
+	width:400px;
+}
+
+
+.box{
+	border-style:solid;
+	width:100px;
+	height:100px;
+	float:left;
+	text-align:center;
+	line-height:100px;
+	vertical-align:middle;
+	background-color:red;
+	border-color:green;
+}
+
+#players{
+	float:left;
+	
+}
+
+#board{
+	float:right;
+	width:350px;
+	height:350px;
+}
+
+#game{
+	border-style:solid;
+	width:600px;
+	height:600px;
+	padding:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:green;
+	margin-bottom:25px;
+}
+
+
+
+
 
 body{
 	background-color: blue;
