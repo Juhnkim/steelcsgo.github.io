@@ -1,0 +1,56 @@
+
+.box{
+	border-style:solid;
+	width:100px;
+	height:200px;
+	float:left;
+	text-align:center;
+	line-height:100px;
+	vertical-align:middle;
+	background-color:red;
+	border-color:green;
+}
+img {
+  height:100px;
+  width:200px;
+}
+
+#players{
+	
+	
+}
+
+#board{
+
+	width:650px;
+	height:1300px;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+#game{
+	border-style:solid;
+	width:700px;
+	height:1260px;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:green;
+	margin-bottom:15px;
+}
+
+
+
+
+
+body{
+	background-color: blue;
+	text-align:center;
+}
+#container{
+	background-color:orange;
+	border-radius:100px;
+  height:1400px;
+	padding:20px;
+}
