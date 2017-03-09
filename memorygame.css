@@ -9,6 +9,8 @@
 	vertical-align:middle;
 	background-color:red;
 	border-color:green;
+	
+
 }
 img {
   height:100px;
@@ -53,4 +55,9 @@ body{
 	border-radius:100px;
   height:1400px;
 	padding:20px;
+}
+
+img{
+	width:100px;
+	height:200px;
 }
