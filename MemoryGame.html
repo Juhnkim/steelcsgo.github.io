@@ -2,6 +2,7 @@
   <head>
     <title>MemoryGame</title>
     <link rel= "stylesheet" type="text/css" href="memorygame.css">
+		<script src="memorygame.js"></script>
   </head>
   <body>
     <div id="container">
@@ -23,134 +24,139 @@
 				</p> 
 				
       </div>
-			
-			
-			
-			
-			
 			<div id="Timer">
 				<input type="button" value="startTimer">
+				<p>
+					0:00
+				</p>
 			</div>
 			
 			<div id="game">
 				<div id="board">
 				<div >
 					<div class="box" id="row1col1" onclick="makeMove('row1col1')">
-						<img src="images\BackCard.jpg">
+						<img id="row1col1img" src="images\BackCard.jpg">
+						<p>
+							x
+						</p>
 					</div>
 					<div class="box" id="row1col2" onclick="makeMove('row1col2')">
-						<img src="images\BackCard.jpg">
+						<img id="row1col2img"  src="images\BackCard.jpg">
+						<p>
+							x
+						</p>
 					</div>
 					<div class="box" id="row1col3" onclick="makeMove('row1col3')">
-					<img src="images\BackCard.jpg">
+					<img id="row1col3img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row1col4" onclick="makeMove('row1col4')">
-					<img src="images\BackCard.jpg">
+					<img id="row1col4img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row1col5" onclick="makeMove('row1col5')">
-					<img src="images\BackCard.jpg">
+					<img id="row1col5img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row1col6" onclick="makeMove('row1col6')">
-					<img src="images\BackCard.jpg">
+					<img id="row1col6img" src="images\BackCard.jpg">
 					</div>
 				</div>
 				<div>
 					<div class="box" id="row2col1" onclick="makeMove('row2col1')">
-					<img src="images\BackCard.jpg">
+					<img id="row2col1img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row2col2" onclick="makeMove('row2col2')">
-					<img src="images\BackCard.jpg">
+					<img id="row2col2img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row2col3" onclick="makeMove('row2col3')">
-					<img src="images\BackCard.jpg">
+					<img id="row2col3img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row2col4" onclick="makeMove('row2col4')">
-					<img src="images\BackCard.jpg">
+					<img id="row2col4img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row2col5" onclick="makeMove('row2col5')">
-					<img src="images\BackCard.jpg">
+					<img id="row2col5img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row2col6" onclick="makeMove('row2col6')">
-					<img src="images\BackCard.jpg">
+					<img id="row2col6img" src="images\BackCard.jpg">
 					</div>
 				</div>
 				<div>
 					<div class="box" id="row3col1" onclick="makeMove('row3col1')">
-					<img src="images\BackCard.jpg">
+					<img id="row3col1img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row3col2" onclick="makeMove('row3col2')">
-					<img src="images\BackCard.jpg">
+					<img id="row3col2img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row3col3" onclick="makeMove('row3col3')">
-					<img src="images\BackCard.jpg">
+					<img id="row3col3img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row3col4" onclick="makeMove('row3col4')">
-					<img src="images\BackCard.jpg">
+					<img id="row3col4img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row3col5" onclick="makeMove('row3col5')">
-					<img src="images\BackCard.jpg">
+					<img id="row3col5img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row3col6" onclick="makeMove('row3col6')">
-					<img src="images\BackCard.jpg">
+					<img id="row3col6img" src="images\BackCard.jpg">
 					</div>
 				</div>
 				<div>
 					<div class="box" id="row4col1" onclick="makeMove('row4col1')">
-					<img src="images\BackCard.jpg">
+					<img id="row4col1img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row4col2" onclick="makeMove('row4col2')">
-					<img src="images\BackCard.jpg">
+					<img id="row4col2img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row4col3" onclick="makeMove('row4col3')">
-					<img src="images\BackCard.jpg">
+					<img id="row4col3img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row4col4" onclick="makeMove('row4col4')">
-					<img src="images\BackCard.jpg">
+					<img id="row4col4img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row4col5" onclick="makeMove('row4col5')">
-					<img src="images\BackCard.jpg">
+					<img id="row4col5img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row4col6" onclick="makeMove('row4col6')">
-					<img src="images\BackCard.jpg">
+					<img id="row4col6img" src="images\BackCard.jpg">
 					</div>
 				</div>
 				<div>
-					<div class="box" id="row5col1" onclick="makeMove('row5col1')"><img src="images\BackCard.jpg">
+					<div class="box" id="row5col1" onclick="makeMove('row5col1')">
+					<img id="row5col1img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row5col2" onclick="makeMove('row5col2')">
-					<img src="images\BackCard.jpg">
+					<img id="row5col2img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row5col3" onclick="makeMove('row5col3')">
-					<img src="images\BackCard.jpg">
+					<img id="row5col3img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row5col4" onclick="makeMove('row5col4')">
-					<img src="images\BackCard.jpg">
+					<img id="row5col4img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row5col5" onclick="makeMove('row5col5')">
-					<img src="images\BackCard.jpg">
+					<img id="row5col5img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row5col6" onclick="makeMove('row5col6')">
-					<img src="images\BackCard.jpg">
+					<img id="row5col6img" src="images\BackCard.jpg">
 					</div>
 				</div>
 				<div>
 					<div class="box" id="row6col1" onclick="makeMove('row6col1')">
-					<img src="images\BackCard.jpg">
+					<img id="row6col1img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row6col2" onclick="makeMove('row6col2')">
-					<img src="images\BackCard.jpg">
+					<img id="row6col2img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row6col3" onclick="makeMove('row6col3')">
-					<img src="images\BackCard.jpg">
+					<img id="row6col3img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row6col4" onclick="makeMove('row6col4')">
-					<img src="images\BackCard.jpg">
+					<img id="row6col4img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row6col5" onclick="makeMove('row6col5')">
-					<img src="images\BackCard.jpg">
+					<img id="row6col5img" src="images\BackCard.jpg">
 					</div>
 					<div class="box" id="row6col6" onclick="makeMove('row6col6')">
-					<img src="images\BackCard.jpg">
+					<img id="row6col6img" src="images\BackCard.jpg">
 					</div>
 				</div>
 			</div>
