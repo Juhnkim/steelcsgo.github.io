@@ -1,3 +1,28 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
 .X{
 	background-color:blue;
 	height:400px;
@@ -45,15 +70,11 @@
 
 body{
 	background-color: blue;
+	background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg")
 	text-align:center;
 }
 #container{
-	background-color:orange;
-	border-radius:100px;
-	padding:100px;
-	text-shadow
-}
-#left{
+	background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg
 	float:left;
 }
 #right{
@@ -71,4 +92,169 @@ body{
 }
 img { 
 		height:100px;
+25
+#board{
+26
+  float:right;
+27
+  width:350px;
+28
+  height:350px;
+29
+}
+30
+​
+31
+#game{
+32
+  border-style:solid;
+33
+  width:600px;
+34
+  height:600px;
+35
+  padding:50px;
+36
+  margin-left:auto;
+37
+  margin-right:auto;
+38
+  background-color:green;
+39
+  margin-bottom:25px;
+40
+}
+41
+​
+42
+​
+43
+​
+44
+​
+45
+​
+46
+body{
+47
+  background-color: blue;
+48
+  background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg")
+49
+  text-align:center;
+50
+}
+51
+#container{
+52
+  background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg
+53
+  float:left;
+54
+}
+55
+#right{
+56
+  float:left;
+57
+}
+58
+#middle{
+59
+  float:left;
+60
+}
+61
+#gallery{
+62
+  width:265px;
+63
+  height:250px;
+64
+  margin-left:auto;
+65
+  margin-right:auto;
+66
+  margin-top:25;
+67
+}
+68
+img { 
+69
+    height:100px;
+70
+}
+
+.X{
+    background-color:blue;
+    height:400px;
+    width:400px;
+}
+​
+​
+.box{
+    border-style:solid;
+    width:100px;
+    height:100px;
+    float:left;
+    text-align:center;
+    line-height:100px;
+    vertical-align:middle;
+    background-color:red;
+    border-color:green;
+}
+​
+#players{
+    float:left;
+    
+}
+​
+#board{
+    float:right;
+    width:350px;
+    height:350px;
+}
+​
+#game{
+    border-style:solid;
+    width:600px;
+    height:600px;
+    padding:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:green;
+    margin-bottom:25px;
+}
+​
+​
+​
+​
+​
+body{
+    background-color: blue;
+		text-align:center;
+    background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg")
+    
+}
+#container{
+    background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg
+    float:left;
+}
+#right{
+    float:left;
+}
+#middle{
+    float:left;
+}
+#gallery{
+    width:265px;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25;
+}
+img { 
+        height:100px;
+}
+
 }
