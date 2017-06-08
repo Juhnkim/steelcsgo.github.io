@@ -1,3 +1,5 @@
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,6 +43,7 @@ li a:hover {
 	background-color:red;
 	border-color:green;
 }
+background-image:url(http://www.no-zaku.com/background/wp-content/uploads/sites/9/2016/11/Simple-Background-For-Website.jpg)
 
 #players{
 	float:left;
@@ -62,6 +65,7 @@ li a:hover {
 	margin-right:auto;
 	background-color:green;
 	margin-bottom:25px;
+	background-image:url("http://www.no-zaku.com/background/wp-content/uploads/sites/9/2016/11/Simple-Background-For-Website.jpg")
 }
 
 
@@ -72,6 +76,7 @@ body{
 	background-color: blue;
 	background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg")
 	text-align:center;
+	background-image:url(http://www.no-zaku.com/background/wp-content/uploads/sites/9/2016/11/Simple-Background-For-Website.jpg)
 }
 #container{
 	background-image: url("http://previews.123rf.com/images/alenalille/alenalille1303/alenalille130300001/18245796-Vintage-ethnic-vector-ornament-orange-background-Stock-Vector.jpg
