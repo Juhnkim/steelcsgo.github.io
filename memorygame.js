@@ -12,9 +12,24 @@ var thirdPic = "";
 			
 function startGame(){
   randomizeImages(getRandomNum(10, 1));
-  randomizeImages2(getRandomNum(5, 1));
+  randomizeImages2(getRandomNum(10, 1));
+  
   //test to see images placed
   //placeImg();
+}
+
+function turnCards(){
+	if(firstPic !== secondPic){
+		//turnCards(firstId, secondId);
+		firstPicChosen = false;
+		secondPicChosen = false;
+		document.getElementById(firstId + "img").src="images/BackCard.jpg";
+		document.getElementById(secondId + "img").src="images/BackCard.jpg";
+	}
+	else{
+		firstPicChosen = false;
+		secondPicChosen = false;
+	}
 }
 
 function makeMove(id, row, col){
@@ -32,37 +47,39 @@ function makeMove(id, row, col){
 		secondId = id;
 		document.getElementById(id + "img").src=getPic(row, col);
 		secondPic = document.getElementById(id + "img").src;
+		
+		setTimeout(function(){turnCards();}, 1000);
 	}
-	else{
+	//else{
 		//secondPic = getPic(row, col);
 		//document.getElementById(id +"img").src=secondPic;
-		if(firstPic !== secondPic){
-			turnCards(firstId, secondId);
-			firstPicChosen = false;
-			secondPicChosen = false;
-		}
-		else{
-      firstPicChosen = false;
-			secondPicChosen = false;
+
 			//alert(firstId);
 			
 			//document.getElementById(firstId + "img").src="images\BackCard.jpg";
 			//document.getElementById(id + "img").src="images\BackCard.jpg";
 			//setTimeout(turnCards(firstId, id), 12000);
-		}
-	}
+		//}
+	//}
+
 }
 
-function turnCards(firstId, id){
+/*function turnCards(firstId, id){
 	//alert ("no match");
 	document.getElementById(firstId + "img").src="images/BackCard.jpg";
 	document.getElementById(id + "img").src="images/BackCard.jpg";
-}
+}*/
 
 function getPic(num1, num2){
 	
-	if(num1 <= 3){
+	if(num1 == 1){
 		return randomLoc[(num1*num2) - 1];
+	}
+	else if(num1 == 2){
+		
+		
+		
+		return randomLoc[(num1*num2) + 1];
 	}
 	else{
 		return randomLoc2[(num1*num2) - 1];
@@ -71,7 +88,7 @@ function getPic(num1, num2){
 
 
 function getRandomNum(max, min){
-  return Math.floor((Math.random()*max)*min);
+  return Math.floor((Math.random()*max)+min);
 }
 
 var pics=["images/Boats.jpg",
@@ -100,8 +117,8 @@ function randomizeImages(mixCount){
 	var num = 0;
 	var num2 = 0;
   for(var i=0; i<mixCount; i++){
-	  num=getRandomNum(17, 1) -1;
-	  num2=getRandomNum(17, 1) -1;
+	  num=getRandomNum(17, 0) ;
+	  num2=getRandomNum(17, 0) ;
 	  var temp=pics[num2]
 	  //alert(temp);
 	  pics[num2]=pics[num];
@@ -118,8 +135,8 @@ function randomizeImages2(mixCount){
 	var num = 0;
 	var num2 = 0;
   for(var i=0; i<mixCount; i++){
-	  num=getRandomNum(17, 1) -1;
-	  num2=getRandomNum(17, 1) -1;
+	  num=getRandomNum(17, 0);
+	  num2=getRandomNum(17, 0);
 	  var temp=pics[num2]
 	  //alert(temp);
 	  pics[num2]=pics[num];
@@ -133,8 +150,8 @@ function randomizeImages2(mixCount){
 }
 
 function placeImg(){
-	var h = 0;
-
+	
+	/*var h = 0;
   for(var i=0; i<6; i++){
 	  for(var j=0; j<6; j++){
   
@@ -147,7 +164,6 @@ function placeImg(){
 		}
 	  }
 	  
-
-  }
+  }*/
 
 }
